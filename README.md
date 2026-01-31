@@ -1,65 +1,96 @@
-# GAMING-PHONE-STORE-
-متجر بيع الهواتف واكسسواراتها
-<!DOCTYPE html>
-<html lang="ar">
+<!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <title>Gaming Phone Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial;
-            background: #0f172a;
-            color: white;
-            text-align: center;
             margin: 0;
+            font-family: Tahoma, Arial;
+            background: #f5f5f5;
+            color: #111;
         }
         header {
-            background: #1e293b;
+            background: #c00000;
+            color: white;
             padding: 20px;
+            text-align: center;
         }
+        header h1 { margin: 0; }
+        .container { padding: 20px; }
         .products {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 20px;
-            padding: 20px;
         }
-        .card {
-            background: #334155;
-            padding: 15px;
+        .product {
+            background: white;
             border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+        .price {
+            color: #c00000;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .whatsapp {
+            display: inline-block;
+            background: #c00000;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
         }
         footer {
-            background: #020617;
-            padding: 10px;
-            font-size: 14px;
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
         }
     </style>
 </head>
-<body>
-
-<header>
+<body><header>
     <h1>🎮 Gaming Phone Store 📱</h1>
-    <p>أفضل أجهزة الجيمينغ والاكسسوارات</p>
-</header>
-
-<section class="products">
-    <div class="card">
+    <p>موبايلات وأكسسوارات جيمينغ بأفضل سعر</p>
+</header><div class="container">
+    <div class="products"><div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Gaming Phone">
         <h3>هاتف Gaming</h3>
-        <p>أداء عالي – شاشة 120Hz</p>
+        <p class="price">السعر: تواصل معنا</p>
+        <a class="whatsapp" href="https://wa.me/201013035903" target="_blank">اطلب على واتساب</a>
     </div>
-    <div class="card">
-        <h3>يد تحكم</h3>
-        <p>متوافقة مع الجوال</p>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Controller">
+        <h3>يد تحكم للجوال</h3>
+        <p class="price">السعر: تواصل معنا</p>
+        <a class="whatsapp" href="https://wa.me/201013035903" target="_blank">اطلب على واتساب</a>
     </div>
-    <div class="card">
+
+    <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Headset">
         <h3>سماعة Gaming</h3>
-        <p>صوت محيطي</p>
+        <p class="price">السعر: تواصل معنا</p>
+        <a class="whatsapp" href="https://wa.me/201013035903" target="_blank">اطلب على واتساب</a>
     </div>
-</section>
 
-<footer>
-    © 2026 Gaming Phone Store
-</footer>
+</div>
 
-</body>
+</div><footer>
+    <p>© 2026 Gaming Phone Store</p>
+    <p>واتساب: 01013035903</p>
+</footer></body>
 </html>
