@@ -1,36 +1,3 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <title>Gaming Phone Store</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Tahoma, Arial;
-      background: #f5f5f5;
-      color: #111;
-      direction: rtl;
-    }
-    header {
-      background: #c00000;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-    }
-    .container {
-      padding: 20px;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-    }
-    .product {
-      background: white;
-      border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       padding: 15px;
       text-align: center;
